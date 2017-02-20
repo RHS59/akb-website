@@ -1,0 +1,328 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>AKB Arma 3 Group</title>
+	<meta name="description" content="AKB Arma 3 Group">
+	<meta name="author" content="SitePoint">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Anton|Poppins:400,500" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
+	
+</head>
+<style>
+
+	@media (max-width: 768px)
+{
+       #info
+       {
+           width: 100%;
+           height: auto;
+       }
+       p 
+       {
+       	font-size: 16px;
+
+       }
+       .fontA-icon {
+		font-size: 18px;
+		}
+ }
+
+ 	@media (min-width: 769px)
+{
+       #info
+       {
+           width: 50vmax;
+           height: auto;
+       }
+       p
+       {
+       	font-size: 16px;
+       	padding: 1em 0em 0em 1em;
+       }
+       	.fontA-icon 
+       	{
+		font-size: 18px;
+		}
+
+ }
+
+
+	#header1 {
+		height: 3em;
+
+		background: #bdbdbc;
+  		background: -webkit-linear-gradient( #565656 , #222222);
+  		background: -o-linear-gradient( #565656 , #222222);
+  		background: -moz-linear-gradient( #565656 , #222222);
+  		background: linear-gradient( #565656 , #222222);
+
+	}
+	#header2 {
+		height: 11em;
+
+		background: #00ff00 url("background-01.png"); 
+		background-position: center; 
+
+
+	}
+	#header3 {
+		height: 2em;
+
+		background: #bdbdbc;
+  		background: -webkit-linear-gradient( #222222 ,#565656);
+  		background: -o-linear-gradient( #222222 ,#565656);
+  		background: -moz-linear-gradient( #222222 ,#565656);
+  		background: linear-gradient( #222222 ,#565656 );
+
+	}
+	#headerDivide {
+
+		height: 2px;
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+		background: #111111;
+	}
+	#info {
+
+		background-color: #FFFFFF;
+		-webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+		box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+	
+	}
+	body {
+				background: repeating-linear-gradient(
+		  45deg,
+		  #1b1b1b,
+		  #1b1b1b 10px,
+		  #222222 10px,
+		  #222222 20px
+			);
+
+
+
+		}
+
+	.center-block {
+ 		 display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+
+	p {
+		font-family: 'Poppins', sans-serif
+		left: 10px;
+	}
+	h4 {
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
+		padding: 1em 0em 0em .8em;
+
+	}
+
+	.video-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 30px; height: 0; overflow: hidden;
+		}
+ 
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		padding: 1em 1em 1em 1em;
+		}
+	#discord {
+
+		height: 100%;
+		width: 3.5em;
+		padding: 0em 0em 0em 1em;
+	}
+
+	#teamspeak-logo {
+		height: 30%;
+		width: auto;
+		padding: 0em 0em 0em 1em;
+	}
+	#steam-logo {
+		height: 100%;
+		width: 3.5em;
+		padding: 0em 0em 0em 1em;
+	}
+	#btsync-logo {
+		height: 40%;
+		width: auto;
+		padding: 0em 0em 0em 1em;
+	}
+	.icons {
+		position: relative;
+		left: 80%;
+
+	}
+	.fa-headphones:hover{ 
+		color:#FFCC36;
+	}
+	.fa-comments-o:hover{ 
+		color:#FFCC36;
+
+	}
+	.fa-users:hover{ 
+		color:#FFCC36;
+
+	}
+	.fa-cloud-download:hover{ 
+		color:#FFCC36;
+
+	}
+
+	#discord,
+	#steam-logo { 
+  	-o-transition:.5s ease-out;
+    -ms-transition:.5s ease-out;
+    -moz-transition:.5s ease-out;
+    -webkit-transition:.5s ease-out;
+  /* ...and now for the proper property */
+  	transition:.5s;
+}
+	#logo {
+		height: 100%;
+		width: 100%;
+	}
+	#shadow {
+
+		-webkit-box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+		box-shadow: 0px 0px 21px 0px rgba(0,0,0,1);
+
+
+	}
+
+	a:link {
+    color:#CB3694;
+	}
+
+	a:visited {
+	color:#CB3694;
+	}
+
+	a:hover {
+	color:#CB3694;
+	}
+
+	a:active {
+	 color:#CB3694;
+}
+
+</style>
+<body>
+	<div class="container-fluid" >
+
+	
+		<div class="row">
+  			<div class="col-sm-2 col-md-2" ><p></p></div>
+  			<div class="col-sm-8 col-md-8" >
+
+  				<div class= "center-block" id="info">
+
+  				<div id="header1"></div>
+  				<div id="headerDivide"style="height:6;"></div>	
+  				<div id="header2">
+  					<div class ="row">
+  						<div class="col-4"></div>
+  						<div class="col-4">
+  							<img src="AKBHELI-01.svg" id="logo" class="text-center" alt='"When you Fly With Leaky, your Future is Bleak-y"'>						
+  						</div>
+  						<div class="col-4"></div>
+  					</div>
+  				</div>
+  				<div id="header3"></div>
+<!-- 						<div class="col-sm col"></div>
+						<div class="col-sm col"></div>
+						<div class="col-sm col"></div>
+						<div class="col-sm col">
+							<a href ="https://discord.gg/0mOmNkhJH9zZkExZ"><img src="https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg" alt="Discord" id="discord"></a>
+							<a href ="https://www.teamspeak.com/downloads"><img src="https://upload.wikimedia.org/wikipedia/de/c/c7/Teamspeak-Logo.svg" alt="Teamspeak" id="Teamspeak-Logo"></a>
+							<a href ="https://steamcommunity.com/groups/AlKibab"><img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="Steam" id="Steam-Logo"></a>
+							<a href ="https://download-cdn.getsync.com/stable/windows64/BitTorrent-Sync_x64.exe"><img src="btsync.png" alt="BTSYNC" id="BTSYNC-Logo"></a>
+					</div> -->
+			
+
+				
+				<div id="headerDivide"></div>			
+
+
+				<p> Coordinated Arma 3 play sessions!</p>
+				<p>
+					
+					AKB hosts gameplay sessions Wednesday, Friday, and Saturday at 6:30pm PST/ 9:30pm EST. <br> 
+					We play cooperative missions ranging from infantry only to combined arms. <br>
+					We accept user made missions! <br>
+					We have our own Content Pack which includes community mods such as ACRE 2 and ACE. <br>
+					The content pack requires to usage of BTSYNC to download, <br> the BTSYNC link can be found at the top of this page.<br> 
+					We also have a Discord channel for when we are not operating in Arma 3. <br>
+					If you are looking to play check this group for announcements/events or check our steam group.<br>
+				</p>
+
+
+			<div class="row" style="padding-top:4em; padding-bottom:4em; padding-right:10px; padding-left:-32px;" >
+				<div class="col-sm-6 col-md-4 text-center">
+					<a href ="https://www.teamspeak.com/downloads"><i class="fa fa-headphones fa-5x" aria-hidden="true">
+						
+					</i></a>
+						<p style="font-family: 'Poppins', sans-serif; font-size:12px">Our in game VOIP is handled by Teamspeak. Get it from the link above.</p>
+				</div>
+				<div class="col-sm-6 col-md-4 text-center fa-5x">
+					<a href ="https://discord.gg/0mOmNkhJH9zZkExZ"><i class="fa fa-comments-o" aria-hidden="true">	
+					</i></a>
+					<p style="font-family: 'Poppins', sans-serif; font-size:12px">We use Discord for out of game chat. You can download it here.</p>
+				</div>
+				<div class="col-sm-6 col-md-4 text-center fa-5x">
+					<a href ="https://steamcommunity.com/groups/AlKibab"><i class="fa fa-users" aria-hidden="true">
+					</i></a>
+					<p style="font-family: 'Poppins', sans-serif; font-size:12px">Join our steam group to get the latest info on Content pack updates.</p>
+				</div>
+				<div class="col-sm-6 col-md-10 offset-md-1 text-center fa-5x">
+					<a href ="https://download-cdn.getsync.com/stable/windows64/BitTorrent-Sync_x64.exe"><i class="fa fa-cloud-download" aria-hidden="true">
+					</i></a>
+					<p style="font-family: 'Poppins', sans-serif; font-size:12px">Our content pack is distributed via the Bittorent Sync client. <br> Please download and install.</p>
+				</div>
+			</div>
+					
+				<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL2FkgJKMsxrQAoFVY0jqrA6xn2pzj3Y5p" frameborder="0" allowfullscreen></iframe></div>
+
+			</div>
+			
+
+  			</div>
+  			<div class="col-sm-2 col-md-2"></div>
+		</div>
+	</div>
+
+
+
+	<script>
+		
+		
+
+
+
+	</script>
+</body>
+</html>
